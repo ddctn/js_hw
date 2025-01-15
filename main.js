@@ -3,9 +3,7 @@
 // 1 задача
 
 const str = "abce";
-console.log(str[0]);
-console.log(str[1]);
-console.log(str[3]);
+console.log(str[0], str[1], str[3]);
 
 // 2 задача
 
