@@ -7,14 +7,14 @@ console.log(str[0], str[1], str[3]);
 
 // 2 задача
 
-let num1 = parseInt(prompt("введите первое число", ""));
-let num2 = parseInt(prompt("введите второе число", ""));
-console.log(num1 > 0 || num2 > 0);
+let num1 = (prompt("введите первое число", ""));
+let num2 = (prompt("введите второе число", ""));
+console.log(num1 > 0 || num2 > 0); // проверить преобразуется ли в число само
 
 // 3 задача
 
-let age = parseInt(prompt("введите свой возраст", ""));
-if (age >= 18) {
+let age = (prompt("введите свой возраст", "")); // при нестрогом сравнении строка будет преобразована в число
+if (age >= 18) { 
   console.log("вы совершеннолетний :)");
 } else {
   console.log("вы несовершеннолетний :(");
