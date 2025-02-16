@@ -1,0 +1,73 @@
+body {
+  height: 100vh;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttons{
+  display: flex;
+  gap: 20px;
+}
+
+.glass{
+  background: -webkit-linear-gradient(90deg, #b6b8ab,#b67191,#2e3ca3);
+  background: linear-gradient(90deg, #b8abab,#8f4c72,#a32e7e);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.glassbtn{
+  background: rgba(235, 168, 168, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-size: 12px;
+  color: rgb(255, 255, 255);
+  backdrop-filter: blur(30px);
+  -webkit-backdrop-filter: blur(30px);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.glassbtn:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.neumorph{
+  background: rgb(177, 177, 177);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.neumorphbtn {
+  background: #e0e0e0;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-size: 12px;
+  color: #535353;
+  box-shadow: 6px 6px 12px rgb(136, 136, 136), -6px -6px 12px rgb(187, 187, 187);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.neumorphbtn:active {
+  box-shadow: inset 6px 6px 12px rgb(136, 136, 136), inset -6px -6px 12px rgb(187, 187, 187);
+}
+
+.styled{
+  background: rgb(238, 238, 238);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.styledbtn {
+  border-radius: 5px;
+  font-size: 12px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, margin 0.3s ease;
+  background-color: linear-gradient(90deg, #416f98,#7bcbdc,#610808);
+}
